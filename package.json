@@ -1,0 +1,24 @@
+{
+  "name": "cv-fredrikcarlsson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novalain/cv-fredrikcarlsson.git"
+  },
+  "author": "Michael Novén",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novalain/cv-fredrikcarlsson/issues"
+  },
+  "homepage": "https://github.com/novalain/cv-fredrikcarlsson#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-serve": "^0.1.6"
+  }
+}
