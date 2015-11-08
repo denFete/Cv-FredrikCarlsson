@@ -13,7 +13,7 @@
 		 	console.log("done!");
 		 	$scope.hasLoaded = true;
 
-		}, 4000);
+		}, 0);
 
 		// TODO Kan peppra bugg
 
