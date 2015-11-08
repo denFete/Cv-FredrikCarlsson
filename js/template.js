@@ -3,9 +3,8 @@
 (function($){
 	$(document).ready(function(){
 
-		$(".banner-image").backstretch('images/start.png');
-
-		$('#reel').tubular({videoId: 'gl-4THqK9AA'});
+		// $(".banner-image").backstretch('images/start.png')
+		//$('#reel').tubular({videoId: 'gl-4THqK9AA'});
 
 		// Fixed header
 		//-----------------------------------------------

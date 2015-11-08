@@ -2,7 +2,35 @@
 
  angular.module('cvApp', [])
 
-	.controller('portfolioCtrl', ['$scope', function($scope){
+	.controller('portfolioCtrl', ['$scope', '$timeout', function($scope, $timeout){
+
+		$scope.hasLoaded = false;
+		var isHidden = false;
+		var canPressButton = true;
+
+		$timeout(function(){
+
+		 	console.log("done!");
+		 	$scope.hasLoaded = true;
+
+		}, 4000);
+
+		// TODO Kan peppra bugg
+
+		$scope.hideStarttext = function(){
+
+			isHidden = isHidden ? false : true;
+
+			if(isHidden){
+				$('#banner-text1').hide();
+				$('#banner-text2').hide();
+			} else {
+				$('#banner-text1').show();
+				$('#banner-text2').show();
+			}
+			
+		}
+
 
 		$scope.projects = [];
 

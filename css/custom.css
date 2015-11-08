@@ -1,6 +1,32 @@
 /* Custom specific attributes 
   watch out for global attributes */
 
+@media(max-width:500px){
+
+  .start-text{
+
+    font-size:1.6em !important;5
+  }
+  
+}
+
+#home{
+  background-image: url("../images/start.png");
+  
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+}
+
+
+.start-text{
+
+  font-size:1.6em;
+
+}
+
 .portfolio-image{width:200px; margin-left:auto; margin-right:auto;}
 
 .translucent-bg.first:after{
@@ -124,4 +150,9 @@ h1 span, h2 span, h3 span, h4 span {
   text-align: right;
 }
 
+.v-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
     
