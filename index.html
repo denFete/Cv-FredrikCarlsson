@@ -38,6 +38,12 @@
 		<!-- Custom css -->
 		<link href="css/custom.css" rel="stylesheet">
 
+		<link href="http://vjs.zencdn.net/5.8.0/video-js.css" rel="stylesheet">
+
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+
+
 	</head>
 
 	<body ng-controller="portfolioCtrl" ng-app="cvApp" class="no-trans">
@@ -201,14 +207,21 @@
 			<!-- ================ -->
 			<!-- section end -->
 
-			<div id="reel" class="banner reel-background">
-					<div class="banner-caption">
+			<div id="reel" class="banner reel">
+					<div class="banner-caption reel">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-									<h1 class="text-center">Showreel in progress..</h1>
-									<!-- <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos debitis provident nulla illum minus enim praesentium repellendus ullam cupiditate reiciendis optio voluptatem, recusandae nobis quis aperiam, sapiente libero ut at.</p> -->
-								</div>
+								<div class="col-md-8 col-md-offset-2 object-non-visible video-container" data-animation-effect="fadeIn">
+									<h1>Showreel</h1>
+								   <video
+								    id="vid1"
+								    class="video-js vjs-default-skin v-align"
+								    controls
+								    autoplay
+								    width="800" height="600"
+								    data-setup='{ "techOrder": ["vimeo"], "sources": [{ "type": "video/vimeo", "src": "https://vimeo.com/157617812"}] }'
+								  >
+								  </video>
 							</div>
 						</div>
 					</div>
@@ -380,6 +393,15 @@
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
+
+		<script src="http://vjs.zencdn.net/5.8.0/video.js"></script>
+		<script type="text/javascript" src="js/Vimeo.js"></script>
+
+		<script type="text/javascript" src="js/vjsrepsonsive.js"></script>
+
+
+
+
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

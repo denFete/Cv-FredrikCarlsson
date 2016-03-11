@@ -137,12 +137,7 @@ h1 span, h2 span, h3 span, h4 span {
       background-image: linear-gradient(top, #fff, #f4f1ee);
       color:#0088cc;
     }
-    .reel-background{
-      background-color: #333333;
-      vertical-align: middle;
-      min-height: 100%;
-      width: 100%;
-}
+
 
 .kontakt{
   width: 30px;
@@ -155,4 +150,7 @@ h1 span, h2 span, h3 span, h4 span {
   top: 50%;
   transform: translateY(-50%);
 }
-    
+
+.reel{
+  background-color: black;
+}
