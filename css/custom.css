@@ -17,15 +17,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-
 }
 
 
 .start-text{
-
-  font-size:1.6em;
-
+  font-size:3em !important;
 }
+
+.start-text-child {
+  font-size:1.2em !important;
+}
+
 
 .portfolio-image{width:200px; margin-left:auto; margin-right:auto;}
 
