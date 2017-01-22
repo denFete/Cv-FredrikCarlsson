@@ -34,7 +34,7 @@
 
 		$scope.projects = [];
 
-		var NUM_PICTURES_CLOCKWORK = 9, NUM_KORTFILMER = 11, NUM_INVASION = 16, NUM_TUMBA_TARZAN = 13, NUM_FOTON = 23;
+		var NUM_PICTURES_CLOCKWORK = 9, NUM_KORTFILMER = 11, NUM_INVASION = 16, NUM_TUMBA_TARZAN = 13, NUM_FOTON = 15;
 
 		for(var i = 0; i < NUM_FOTON; i++){
 			var obj = {'title' : 'Övriga foton', 'img_prepath' : 'foton', 'img_format': 'jpg', 'img_index' : i+1};

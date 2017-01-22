@@ -33,8 +33,9 @@ h1 {
 	margin-bottom: 20px;
 }
 h2 {
-	font-size: 28px;
-	margin-bottom: 15px;
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 20px;
 }
 h3 {
 	font-size: 22px;
@@ -139,6 +140,7 @@ blockquote {
 	background-color: rgba(0, 0, 0, 0.6);
 	content: "";
 }
+
 .banner-caption {
 	position: absolute;
 	top: 40%;
@@ -510,6 +512,7 @@ textarea {
 }
 .fixed-header-on .site-name {
 	font-size: 24px;
+	padding: 0;
 }
 .fixed-header-on .logo {
 	-webkit-transform: scale(0.8);
@@ -548,6 +551,7 @@ textarea {
 	float: left;
 }
 .site-name {
+	padding: 6px;
 	font-size: 36px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -617,6 +621,9 @@ textarea {
 }
 .social-links li.pinterest a:hover {
 	color: #cb2027;
+}
+.social-links li.imdb a:hover {
+	color: #e6b91e;
 }
 
 /* Isotope Items
